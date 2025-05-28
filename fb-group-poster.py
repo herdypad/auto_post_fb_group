@@ -17,11 +17,12 @@ POST_MESSAGE = (
 )
 
 # Inisialisasi browser
+## # local windows
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument(r"--user-data-dir=C:\Users\Administrator\AppData\Local\Google\Chrome\User Data")
 chrome_options.add_argument("--profile-directory=Default")
 
-
+## # local MacOS
 # chrome_options = webdriver.ChromeOptions()
 # chrome_options.add_argument("--user-data-dir=/Users/herdy/Downloads/fb/chrome-profile-selenium")
 # chrome_options.add_argument("--profile-directory=Default")
